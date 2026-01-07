@@ -10,3 +10,18 @@ The paper associated with this repository is found on arXive at:
 `
 
 `
+
+## Citation
+
+The Bibtex citation for this repository is:
+
+```
+@misc{perry2026_modular_collatz,
+  author = {Perry, Gabriel M.},
+  title = {Modular Collatz},
+  year = {2026},
+  publisher = {GitHub},
+  howpublished = {\\\url{https://github.com/perryGabriel/modular_collatz}},
+  note = {Accessed: 2026-01-06}
+}
+```
