@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modular-collatz"
+version = "0.1.0"
+description = "Reference implementation of modular Collatz algorithms."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Gabriel M. Perry" }
+]
+keywords = ["collatz", "number-theory", "modular-arithmetic"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[project.urls]
+Homepage = "https://github.com/perryGabriel/modular_collatz"
+Repository = "https://github.com/perryGabriel/modular_collatz"
+
+[project.scripts]
+modular-collatz = "modular_collatz.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
