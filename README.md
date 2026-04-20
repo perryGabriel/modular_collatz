@@ -14,7 +14,9 @@ This repository now supports package installation, command-line usage, automated
 
 ```text
 .
-├── Collatz.ipynb                  # Original exploratory notebook
+├── notebooks/                     # Jupyter notebooks
+│   ├── Collatz.ipynb              # Original exploratory notebook
+│   └── Collatz_plots.ipynb        # Plotting and visualization notebook
 ├── src/modular_collatz/           # Installable Python package
 │   ├── __init__.py
 │   ├── core.py                    # Core algorithms
